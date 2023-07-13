@@ -1,5 +1,17 @@
 # Online-Banking
-user_accounts, log_in, username, password): This function allows users to sign up with the system. It checks the validity of the username and password based on certain requirements and updates the user_accounts and log_in dictionaries accordingly.
+This assignment involves implementing an online banking system using Python. The system allows users to sign up, log in, change their password, delete their account, update their bank account balance, and transfer money to other users' bank accounts. The implementation involves working with file I/O and dictionaries.
+
+Files
+The assignment requires importing data from two files: "users.txt" and "bank.txt". The "users.txt" file contains user information, while the "bank.txt" file contains account information. Make sure to review the content of these files before proceeding with the implementation.
+
+Functions
+The assignment provides function definitions for each task. Your task is to write the code for these functions based on the provided instructions and hints. The functions include:
+
+import_and_create_users(filename): This function reads the "users.txt" file and creates a user accounts dictionary and a login dictionary. Each line in the file should be in the format "username - password". The user accounts dictionary stores the username as the key and the password as the value. The login dictionary stores the username as the key and the login status (True/False) as the value.
+
+import_and_create_accounts(filename): This function reads the "bank.txt" file and creates a bank accounts dictionary. Each line in the file should be in the format "username - balance". The bank accounts dictionary stores the username as the key and the account balance as the value.
+
+signup(user_accounts, log_in, username, password): This function allows users to sign up with the system. It checks the validity of the username and password based on certain requirements and updates the user_accounts and log_in dictionaries accordingly.
 
 login(log_in, username, password): This function allows users to log in to the system. It verifies the username and password against the user_accounts dictionary and updates the login status in the log_in dictionary.
 
@@ -20,4 +32,3 @@ Attribution
 This assignment is presented by UPENN on Coursera.
 
 Please refer to the provided code and instructions for further details on the implementation of each function.
-
