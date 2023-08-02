@@ -11,7 +11,7 @@ The assignment provides function definitions for each task. Your task is to writ
 
 -<u>import_and_create_users(filename)</u>: This function reads the "users.txt" file and creates a user accounts dictionary and a login dictionary. Each line in the file should be in the format "username - password". The user accounts dictionary stores the username as the key and the password as the value. The login dictionary stores the username as the key and the login status (True/False) as the value.
 
--<u>import_and_create_accounts(filename)</u>: This function reads the "bank.txt" file and creates a bank accounts dictionary. Each line in the file should be in the format "username - balance". The bank accounts dictionary stores the username as the key and the account balance as the value.
+<u>import_and_create_accounts(filename)</u> This function reads the "bank.txt" file and creates a bank accounts dictionary. Each line in the file should be in the format "username - balance". The bank accounts dictionary stores the username as the key and the account balance as the value.
 
 -<u>signup(user_accounts, log_in, username, password)</u>: This function allows users to sign up with the system. It checks the validity of the username and password based on certain requirements and updates the user_accounts and log_in dictionaries accordingly.
 
